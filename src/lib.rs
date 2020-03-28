@@ -4,7 +4,7 @@ include!(concat!(env!("OUT_DIR"), "/codegen.rs"));
 ///
 /// 변환에 성공한 경우 `Some(&'static str)`, 실패한 경우 `None`을 반환합니다.
 ///
-/// # 예제
+/// # 사용 예
 ///
 /// ```
 /// use hypua::to_ipf;
