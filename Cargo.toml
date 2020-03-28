@@ -6,6 +6,7 @@ edition = "2018"
 license = "Unlicense"
 readme = "README.md"
 repository = "https://github.com/kiwiyou/hypua/"
+description = "한양 PUA 코드로 인코딩된 옛한글을 첫가끝(IPF) 방식으로 변환하는 라이브러리"
 
 [dependencies]
 phf = { version = "0.8.0", default-features = false }
