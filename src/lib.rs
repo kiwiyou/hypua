@@ -1,3 +1,14 @@
+//! PUA 코드를 첫가끝 (IPF) 방식으로 변환하는 라이브러리입니다.
+//!
+//! # 사용 예
+//!
+//! ```
+//! use hypua::to_ipf_string;
+//! 
+//! let text = "이런 젼로 어린 百姓이 니르고져  배 이셔도.";
+//! println!("{}", to_ipf_string(text));
+//! ```
+
 include!(concat!(env!("OUT_DIR"), "/codegen.rs"));
 
 /// PUA 코드를 담은 `char` 값을 첫가끝 방식의 문자열로 변환합니다.
