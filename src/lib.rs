@@ -5,7 +5,7 @@ include!(concat!(env!("OUT_DIR"), "/codegen.rs"));
 /// # 예제
 /// ```
 /// use hypua::to_ipf;
-/// 
+///
 /// // U+E4CF () = ᄙᅰ
 /// assert_eq!(to_ipf(''), Some("ᄙᅰ"));
 /// // 한양 PUA 코드가 아니라면 `None`을 반환합니다.
