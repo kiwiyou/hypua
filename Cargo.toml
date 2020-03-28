@@ -13,3 +13,7 @@ phf = { version = "0.8.0", default-features = false }
 
 [build-dependencies]
 phf_codegen = "0.8.0"
+
+[[example]]
+name = "hunmin"
+path = "example/hunmin.rs"
