@@ -15,5 +15,5 @@
 
 ```toml
 [dependencies]
-hypua = 0.1.0
+hypua = "0.1.0"
 ```
