@@ -1,8 +1,8 @@
 # hypua
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kiwiyou/hypua/Rust?style=flat-square)
-![GitHub](https://img.shields.io/github/license/kiwiyou/hypua?style=flat-square)
-![Crates.io](https://img.shields.io/crates/v/hypua?style=flat-square)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kiwiyou/hypua/Rust?style=flat-square)](https://github.com/kiwiyou/hypua/actions?query=workflow%3ARust)
+[![License](https://img.shields.io/github/license/kiwiyou/hypua?style=flat-square)](https://github.com/kiwiyou/hypua/blob/master/LICENSE)
+[![Crates.io](https://img.shields.io/crates/v/hypua?style=flat-square)](https://crates.io/crates/hypua)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kiwiyou/hypua?style=flat-square)
 
 한양 PUA 코드로 인코딩된 옛한글을 첫가끝(IPF) 방식으로 변환하는 라이브러리
