@@ -17,3 +17,16 @@
 [dependencies]
 hypua = "0.1.0"
 ```
+
+## 사용 예
+
+[example/hunmin.rs](https://github.com/kiwiyou/hypua/blob/master/example/hunmin.rs):
+
+```rust
+use hypua::to_ipf_string;
+
+fn main() {
+    let text = "이런 젼로 어린 百姓이 니르고져  배 이셔도.";
+    println!("{}", to_ipf_string(text));
+}
+```
